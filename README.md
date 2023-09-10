@@ -1,0 +1,1 @@
+# projeto-07-escala-termometrica
