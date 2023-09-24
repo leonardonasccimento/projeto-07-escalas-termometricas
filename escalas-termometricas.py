@@ -3,7 +3,7 @@ TC, TF, TK = 0, 0, 0
 while True:
     opcao = int(
         input(
-            "Digite uma opção e prima Enter: \n   9 para conversão de Celsius em Fahrenheit \nou 8 para conversão de Fahrenheit em Celsius \nou 7 para conversão de Celsius em Kelvin \nou 6 para conversão de Kelvin em Celsius \nou 5 para conversão de Fahrenheit em Kelvin \nou 4 para conversão de Kelvin em Fahrenheit \nou digite 0 para sair: "
+            "Digite uma opção e prima Enter: \n   (9) para conversão de Celsius em Fahrenheit \nou (8) para conversão de Fahrenheit em Celsius \nou (7) para conversão de Celsius em Kelvin \nou (6) para conversão de Kelvin em Celsius \nou (5) para conversão de Fahrenheit em Kelvin \nou (4) para conversão de Kelvin em Fahrenheit \nou digite (0) para sair: "
         )
     )
     if opcao == 9:
@@ -34,6 +34,6 @@ while True:
     else:
         break
 
-    parada = int(input("Digite 9 para sair ou digite 8 para um novo cálculo: "))
+    parada = int(input("Digite (9) para sair ou digite (8) para um novo cálculo: "))
     if parada == 9:
         break
